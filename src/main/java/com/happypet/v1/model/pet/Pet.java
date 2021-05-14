@@ -45,11 +45,11 @@ public class Pet implements Serializable {
     private String cor;
     @Basic(optional = false)
     @Column(name = "age")
-    private int age;
+    private Integer age;
     @Basic(optional = false)
     @Column(name = "owner")
     private String owner;
-    @Basic(optional = false)
+//    @Basic(optional = false)
     @Column(name = "last_visit")
     private String lastVisit;
     @Basic(optional = false)
