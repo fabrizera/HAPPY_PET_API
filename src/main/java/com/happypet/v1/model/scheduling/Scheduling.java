@@ -33,7 +33,7 @@ public class Scheduling implements Serializable {
     @Column(name = "id")
     private Integer id;
     @Basic(optional = false)
-    @Column(name = "id-pet")
+    @Column(name = "id_pet")
     private int idPet;
     @Basic(optional = false)
     @Column(name = "date")
